@@ -13,7 +13,7 @@ TO USE:
 
  3) Install dbconn (Make sure your ssh key has been added to you bitbucket account and you have been added
     to the datatransfer team)
-        pip install git+ssh://git@bitbucket.org/datatransfer/dbconn.git
+        pip install git+ssh://git@github.com/rad08d/mysqlcon.git
 
  4) If the library needs to be upgraded
-        pip install git+ssh://git@bitbucket.org/datatransfer/dbconn.git --upgrade
+        pip install git+ssh://git@github.com/rad08d/mysqlcon.git --upgrade
