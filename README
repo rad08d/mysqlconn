@@ -1,0 +1,19 @@
+Welcome to dbconn!
+
+This is a very simple MySQL library that should be used for all data transfer scripts that need to use python.
+This will allow us to have one maintainable way to connect to databases needed for any data transfer needs.
+This library also allows for scripts to easily use their own database users.
+
+TO USE:
+ 1) Create a virtual environment for python 2.7 or below
+        virtualenv -p /usr/bin/python2.7 venv
+
+ 2) Source the virtual environment
+        source venv/bin/activate
+
+ 3) Install dbconn (Make sure your ssh key has been added to you bitbucket account and you have been added
+    to the datatransfer team)
+        pip install git+ssh://git@bitbucket.org/datatransfer/dbconn.git
+
+ 4) If the library needs to be upgraded
+        pip install git+ssh://git@bitbucket.org/datatransfer/dbconn.git --upgrade
